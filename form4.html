@@ -1,0 +1,74 @@
+<html>
+<head>
+<title> Form4 </title>
+</head>
+<body>
+<img src="greetlabs.png" />
+<a href = "home.html" > HOME </a>
+<a href = "about.html" > ABOUT US </a>
+<a href = "service.html" > SERVICES </a>
+<a href = "contact.html" > CONTACT US </a>
+<form>
+<fieldset>
+<legend> Send us an Email</legend>
+ <table>
+            <tr>
+                <td>
+                    <label for="name">Name*</label>
+                </td>
+                <td>
+                    <label for="email">Email*</label>
+                </td>
+				<td>
+                    <label for="phno">phone:</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="text" id="name" name="name" required>
+                </td>
+                <td>
+                    <input type="email" id="email" name="email" required>
+                </td>
+				<td>
+                    <input type="number" id="phno" name="phno">
+                </td>
+            </tr>
+			<tr>
+                <td>
+                    <label>SUBJECT*</label>
+                </td>
+                <td>
+                    <label>SERVICES</label>
+                </td>
+			</tr>
+			<tr>
+                <td>
+                    <input type="text" >
+                </td>
+                <td>
+                    <select>
+					    <option> --Select One-- </option>
+						<option> FULLSTACK-JAVA </option>
+						<option> FULLSTACK-PYTHON </option>						
+					</select>
+                </td>
+			</tr>
+			<tr>
+                <td>
+                    <label>MESSAGE</label>
+                </td>
+			</tr>
+			<tr>
+                <td>
+                    <input type="textarea" rows="5" cols="10">
+                </td>
+			</tr>
+			
+        </table>
+		<input type="SUBMIT" value="SUBMIT COMMENT"/>
+		
+</fieldset>
+</form>
+</body>
+</html>
